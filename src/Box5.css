@@ -1,0 +1,221 @@
+.box5{
+    position: relative;
+    top: -90px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+
+}
+
+.hid{
+    display: none;
+    filter: blur(20px);
+    height: 300px;
+    width: 400px;
+    
+}
+.activeh{
+    display: block;
+}
+@media(max-width:1192px){
+    .comu h1{
+        font-size: 50px !important;
+    }
+    .isactivet{
+display: block;
+    }
+    .comu h1{
+        top:100px;
+        font-size: 50px;
+    }
+    .activet{
+        height: 500px !important;
+    }
+    .tabs{
+        display: block !important;
+    }
+    .tabs{
+        width: 100% !important;
+        height: 40% !important;
+    }
+    .tab{
+        height: 50% !important;
+        width: 100% !important;
+    }
+    .tab1{
+        height: 25% !important;
+    }
+    .box5{
+        height: 900px !important;
+    }
+}
+@media(max-width:767px){
+    .kaatu{
+        display: block !important;
+    }
+    .comu h1{
+        font-size: 2.9rem !important;
+        text-align: left;
+        margin-left: 1% !important;
+    }
+    .ti{
+        left:2% !important;
+        top:10% !important;
+    }
+    .kaatu{
+        margin-top: -40px !important;
+    }
+    .im{
+        position: relative;
+        left: 35% !important;
+        top:-30px;
+        width: 130px !important;
+    }
+    .eluthu h3{
+        display: none;
+    }
+    .p1{
+ 
+        font-size: 18px !important;
+        top:100px !important;
+    left:70px !important;  
+height: 60px !important; 
+width: 85% !important; }
+    .im img{
+        width: 100% !important;
+    }
+}
+
+.comu{
+    
+    
+
+    height: 220px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    text-align: left;
+  
+
+}
+.tabs{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.tab{
+    width: 40%;
+    height: 100%;
+   
+    
+}
+.tab1{
+    height: 25%;
+    border: 0.2px solid black;
+    transition: .15s;
+}
+.kaatu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+ 
+}
+.comu   h1{
+   position: relative;
+   bottom: -50px;
+    margin-left: 100px;
+}
+.show{
+    width: 100%;
+    height: 100%;
+}
+.im{
+    width: 30%;
+}
+.p1{
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 120px;
+    left: 100px;
+   text-align: left;
+    width: 75%;
+    height: 100px;
+    color: white;
+    border-bottom: .3px solid white;
+}
+.k1{
+    position: relative;
+    left: 30px;
+    top: 100px;
+    width: 179px;
+}
+.p2{
+    border-bottom: none;
+}
+.eluthu h3{
+    position: relative;
+    top: 90px;
+    right: 120px;
+    color: white;
+}
+.tab1 p{
+    font-size:28px;
+    position: relative;
+    top:20px;
+}
+.tab1:hover{
+    background-color: black;
+    color: white;
+    border-bottom: .3px solid white;
+    border-top: .4px solid white;
+}
+.katu{
+    height: 100%;
+    display: none;
+}
+.activet{
+  
+    display: block;
+    transition: 1s;
+}
+
+.k2{
+    background: linear-gradient(246.87deg, #1e3264 0, #509bf5 100%);
+}
+.k11{
+    background:  linear-gradient(246.87deg, #4100F5 0, #F59B23 100%);
+}
+
+.ti{
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    left: 40%;
+}
+.tbs{
+    height: 100% !important;
+
+}
+.tbs .tab1{
+    height: 18% !important;
+}
+
+.tbs .activet{
+    height: 50% !important;
+}
+.tbss{
+    height: 100% !important;
+}
+.k3{
+    background: linear-gradient(246.87deg, #503750 0, #9bf0e1 100%);
+}
+.k4{
+    background: linear-gradient(246.87deg, #2d46b9 0, #c3f0c8 100%);
+}
+.isactivet{
+    transition: 7s;
+    display: none;
+}

@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Gelasio&display=swap");
+
+* { box-sizing: border-box; }
+
+body,
+html { overflow-x: hidden; }
+
+.bar {
+  position: relative;
+  top: 0;
+  
+  left: 0;
+display: flex;
+  width: 100%;
+  padding: 25px 0;
+
+  background-color: #ff6437;
+  color: white;
+white-space: nowrap;
+overflow: hidden;
+  font-family: Gelasio;
+  
+}
+.ticket{
+    padding: 0 30px;
+    display:flex;
+}
+.title{
+    color: white;
+    margin-left: 20px;
+    font-size: 34px;
+    padding: 40px;
+}
+.col{
+    position: relative;
+    top: -3px;
+    font-size: 18px;
+    color: #fae62d;
+}
+
+.bar_content {
+  display: flex; /* Important to give the content a width */
+padding: 16px 0;
+width: 1379.72px;
+  flex-wrap: nowrap;
+
+ 
+  /* Animation start out of the screen */
+
+color: white;
+font-size: x-large;
+  /* Add the animation */
+  animation: scrollText 44s infinite linear; /* infinite make reapeat the animation indefinitely */;
+}
+.bar_content1 {
+    display: flex;
+    flex-wrap: nowrap; /* Important to give the content a width */
+    padding: 16px 0;
+ 
+
+  width: 1379.72px;
+  /* Animation start out of the screen */
+
+
+  
+  color: white;
+  font-size: x-large;
+    /* Add the animation */
+    animation: scrollText 44s infinite linear;/* infinite make reapeat the animation indefinitely */;
+  }
+
+.scroll{
+    display: inline-block;
+}
+
+
+/* Create the animation */
+@keyframes scrollText {
+    from   { transform: translateX(0%); }
+    to { transform: translateX(-100%); }
+  }

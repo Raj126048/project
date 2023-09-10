@@ -1,0 +1,170 @@
+#sub{
+    background-color: #2d46b9;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+.text{
+    color: white;
+    border:none;
+    font-size: 18px;
+   
+    width: 4000px;
+    background-color: #2d46b9;
+}
+.text:active{
+    border: none;
+    text-decoration: none;
+    border: transparent;
+}
+.submit{
+    margin-left: 60px;
+
+    background-color: #2d46b9;
+    display: flex;
+    color: white;
+    margin-top: 12px;
+    width: 100px;
+    height: 30px;
+
+}
+::placeholder{
+    color: white;
+}
+@media(max-width:767px){
+    .form{
+        padding-left: 30px!important;
+        display: block !important;
+        height: 250px !important;
+    }
+    .lefti{
+        width: 100% !important;
+        height: 40% !important;
+    }
+    .righti{
+        padding-top: 30px;
+        border-top: 0.2px solid white;
+        margin-left: -50px !important;
+        width: 100% !important;
+        width: 100% !important;
+        height: 20% !important;
+        display: flex;
+     
+    }
+    .anime{
+        width: 100%;
+        display: none;
+    }
+    .animer{
+        width: 100% !important;
+        display: flex !important;
+    }
+    .animer span{
+        display: flex;
+margin-left: 50px;
+    }
+    .check{
+        width: 100% !important;
+        height: 40% !important;
+    
+    }
+    @keyframes scrolll {
+        0%{
+            -webkit-transform: translateX(-100%);
+                    transform: translateX(100%);
+          }
+          100%{
+            -webkit-transform: translateY(100%);
+                    transform: translateY(100%);
+          }
+    }
+}
+.form{
+    padding-left: 90px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #2d46b9;
+}
+.lefti{
+    background-color: #2d46b9;
+}
+.topi{
+    display: flex;
+    width: 550px;
+    height: 50px;
+    border-bottom: 3px solid white;
+}
+.p{
+    font-size: 10px;
+    line-height: 15px;
+    width: 550px;
+    text-align: left;
+    color: white;
+}
+.ul{
+    text-align: left;
+}
+.bo{
+    width: 30px;
+}
+.anime{
+    position: relative;
+    top: -60px;
+    
+   margin-bottom: 100px;
+    font-size: 25px;
+    color: white;
+    width: 50%;
+    height: 50%;
+   
+    animation: scrolll 30s infinite linear;
+    
+}
+.animer{
+    position: relative;
+    top: -170px;
+ left: 0px;
+    height: 50%;
+margin-left: 30px;
+    font-size: 25px;
+    color: white;
+    width: 50%;
+   margin-top: 100px;
+    animation: scrolll 30s infinite linear;
+   
+}
+.anime:hover{
+    animation: scrolll 12s infinite linear;
+   
+}
+.animer:hover{
+    animation: scrolll 12s infinite linear;
+   
+}
+
+   
+@keyframes scrolll {
+    0%{
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-40%);
+      }
+      100%{
+        -webkit-transform: translateY(100%);
+                transform: translateY(100%);
+      }
+}
+
+.li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    position: relative;
+    left: -10px;
+}
+.righti{
+    margin-left: 100px;
+    display: flex;
+    width: 500px;
+    overflow: hidden;
+}
